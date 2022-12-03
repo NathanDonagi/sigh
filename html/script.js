@@ -6,8 +6,6 @@ var chatRoom;
 var messages = [];
 var delay = true;
 
-console.log("server started")
-
 function onload(){
   socket = io();
   usernameInput = document.getElementById("NameInput");

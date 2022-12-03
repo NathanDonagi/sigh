@@ -9,6 +9,8 @@ const io = socketio(httpserver);
 
 const gamedirectory = path.join(__dirname, "html");
 
+console.log("server started")
+
 app.use(express.static(gamedirectory));
 
 httpserver.listen(3000);
